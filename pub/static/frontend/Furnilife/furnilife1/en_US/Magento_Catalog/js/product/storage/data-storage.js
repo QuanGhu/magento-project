@@ -1,0 +1,1 @@
+/Users/quanghu/www/projects/freelance/magento-project/vendor/magento/module-catalog/view/frontend/web/js/product/storage/data-storage.js

@@ -1,0 +1,1 @@
+/Users/quanghu/www/projects/freelance/magento-project/lib/web/mage/apply/scripts.js

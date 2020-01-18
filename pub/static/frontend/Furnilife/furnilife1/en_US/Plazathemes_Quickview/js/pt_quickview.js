@@ -1,0 +1,1 @@
+/Users/quanghu/www/projects/freelance/magento-project/app/design/frontend/Furnilife/furnilife1/Plazathemes_Quickview/web/js/pt_quickview.js

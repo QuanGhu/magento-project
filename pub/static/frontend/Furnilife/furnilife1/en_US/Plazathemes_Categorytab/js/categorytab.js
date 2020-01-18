@@ -1,0 +1,1 @@
+/Users/quanghu/www/projects/freelance/magento-project/app/code/Plazathemes/Categorytab/view/frontend/web/js/categorytab.js
