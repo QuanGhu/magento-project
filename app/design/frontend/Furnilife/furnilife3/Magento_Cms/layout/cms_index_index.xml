@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body> 
+        <referenceContainer name="main.bottom"> 
+        	<block class="Plazathemes\Categorytop\Block\Categorytop" name="categorytop" template="categorytop.phtml" before="container.bottom"/>
+			<container name="container.bottom" htmlTag="div" htmlClass="container"> 
+				<block class="Plazathemes\Bestsellerproduct\Block\Bestsellerproduct" name="bestsellerproduct" template="bestsellerproduct.phtml"/>
+				<block class="Magento\Cms\Block\Block" name="home_static3">
+					<arguments>
+						<argument name="block_id" xsi:type="string">home_static3</argument>
+					</arguments>
+				</block>
+				<block class="Magento\Cms\Block\Block" name="our_service2">
+					<arguments>
+						<argument name="block_id" xsi:type="string">our_service2</argument>
+					</arguments>
+				</block>
+				<block class="Plazathemes\Blog\Block\Sidebar\Recent" name="blog.sidebar.recent" template="sidebar/slider.phtml"  />
+				<block class="Plazathemes\Brandslider\Block\Brandslider" name="Brand" template="brandslider.phtml"/> 
+			</container>
+			<block class="Plazathemes\InstagramGallery\Block\InstagramGallery" name="instagramgallery" template="Plazathemes_InstagramGallery::plazathemes/instagramgallery/default.phtml"/>
+        </referenceContainer>
+		 
+    </body>
+</page>

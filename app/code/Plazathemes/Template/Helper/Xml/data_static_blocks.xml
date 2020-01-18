@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<ma_furnilife>
+    <blocks>
+		<block>
+            <title>Header Static</title>
+            <identifier>header_static</identifier>
+            <content>
+				<![CDATA[
+					<div class=" header-static"><i class="icon ion-android-alarm-clock">icon</i>Ordered before 17:30, shipped today - Support: (012) 800 456 789</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Our Service</title>
+            <identifier>our_service</identifier>
+            <content>
+				<![CDATA[
+					<div class="our-service">
+					<div class="row">
+					<div class="box col-md-4">
+					<div class="box-inner"><i class="icon ion-earth">icon</i>
+					<div class="content">
+					<h5>FREE shipping</h5>
+					<p>Free shipping on all order</p>
+					</div>
+					</div>
+					</div>
+					<div class="box col-md-4">
+					<div class="box-inner"><i class="icon ion-android-checkmark-circle">icon</i>
+					<div class="content">
+					<h5>Money return</h5>
+					<p>Back guarantee under 7 days</p>
+					</div>
+					</div>
+					</div>
+					<div class="box col-md-4">
+					<div class="box-inner"><i class="icon ion-ios-bell">icon</i>
+					<div class="content">
+					<h5>member discount</h5>
+					<p>Onevery order over $120.00</p>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                    <![CDATA[
+						<ul class="menu_links">
+						<li><a href="http://www.plazathemes.com/">shop</a></li>
+						<li><a href="{{store url="blog"}}">blog</a></li>
+						<li><a href="{{store url="contact"}}">contact</a></li>
+						<li><a href="{{store url="about-magento-demo-store"}}">about us</a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Contact Map</title>
+            <identifier>contact_map</identifier>
+            <content>
+				<![CDATA[
+					<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" width="100%" height="350"></iframe></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="row">
+						<div class="f-col f-col1 col-md-4">
+						<div class="logo-footer"><a href="#"><img src="{{media url="wysiwyg/logo.png"}}" alt="" /></a></div>
+						<div class="footer-content">
+						<ul class="info">
+						<li>Address: 123 Main Street, Anytown, CA 12345 - USA.</li>
+						<li>Phone: (012) 800 456 789</li>
+						<li>Fax: (012) 800 456 789</li>
+						<li>Email: Contact@plazathemes.com</li>
+						</ul>
+						<div class="social-icons">
+						<ul>
+						<li class="twitter"><a title="twitter" href="#"><i class="fa-twitter fa">icon</i></a></li>
+						<li class="facebook"><a title="facebook" href="#"><i class="fa-facebook fa">icon</i></a></li>
+						<li class="googleplus"><a title="googleplus" href="#"><i class="fa-google-plus fa">icon</i></a></li>
+						<li class="youtube"><a title="youtube" href="#"><i class="fa-behance fa">icon</i></a></li>
+						<li class="pinterest"><a title="pinterest" href="#"><i class="fa-pinterest-p fa">icon</i></a></li>
+						<li class="rss"><a title="rss" href="#"><i class="fa-rss fa">icon</i></a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+						<div class="f-col f-col2 col-md-2">
+						<div class="footer-title">
+						<h3>My account</h3>
+						</div>
+						<div class="footer-content">
+						<ul class="menu">
+						<li class="first"><a href="{{store direct_url="contact/"}}">Contact Us</a></li>
+						<li><a href="{{store direct_url="sales/guest/form/"}}">orders and returns</a></li>
+						<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+						<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+						<li><a href="{{store direct_url="customer/account/"}}">Delivery Information</a></li>
+						<li class="last"><a href="{{store direct_url="sales/order/history/"}}">Order History</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col3 col-md-2">
+						<div class="footer-title">
+						<h3>infomation</h3>
+						</div>
+						<div class="footer-content">
+						<ul class="menu">
+						<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						<li><a href="{{store direct_url="shop/dresses.html"}}">My Account</a></li>
+						<li><a href="{{store direct_url="catalogsearch/advanced/"}}">Advanced Search</a></li>
+						<li><a href="{{store direct_url="checkout/cart"}}">My cart</a></li>
+						<li><a href="{{store direct_url="checkout/onepage"}}">Checkout</a></li>
+						<li class="last"><a href="{{store direct_url="customer/account/login/"}}">Login</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col4 col-md-4">
+						<div class="footer-title">
+						<h3>JOIN OUR NEWSLETTER NOW</h3>
+						</div>
+						<div class="footer-content">Get E-mail updates about our latest shop and special offers. {{block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" before="-" template="subscribe.phtml"}}</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+			
+		<block>
+			<title>Footer Payment</title>
+			<identifier>footer_payment</identifier>
+			<content>
+					<![CDATA[
+						<div class="payment"><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></div>
+					]]>
+			</content>
+			<is_active>1</is_active>
+		</block>
+		
+		<block>
+            <title>Home Static 1</title>
+            <identifier>home_static1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="home-static space-modul">
+						<div class="row">
+						<div class="col-md-4 box">
+						<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/1_4.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-4 box">
+						<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/1_5.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-4 box">
+						<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/1_6.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Title Links1</title>
+            <identifier>title_links1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="title-links">
+						<div class="title2">
+						<h3>bedroom furniture</h3>
+						</div>
+						<div class="tab-links">
+						<ul>
+						<li><a href="{{store url="bedroom/nightstands.html"}}">Nightstands</a></li>
+						<li><a href="{{store url="bedroom/bed.html"}}">Beds</a></li>
+						<li><a href="{{store url="bedroom/headboards.html"}}">HeadBoards</a></li>
+						<li><a href="{{store url="bedroom/chests-dressers.html"}}">Chests &amp; Dressers</a></li>
+						<li><a href="#">Bedroom Sets</a></li>
+						<li><a href="#">Mattretsser</a></li>
+						<li><a href="#">Armories</a></li>
+						<li><a href="#">Small Beds</a></li>
+						<li><a href="#">Larger Beds</a></li>
+						</ul>
+						</div>
+						<div class="bg"><img src="{{media url="wysiwyg/1_12.png"}}" alt="" /></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Title Links 2</title>
+            <identifier>title_links2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="title-links">
+						<div class="title2">
+						<h3>LIVINGROOM FURNITURE</h3>
+						</div>
+						<div class="tab-links">
+						<ul>
+						<li><a href="{{store url="bedroom/nightstands.html"}}">Nightstands</a></li>
+						<li><a href="{{store url="bedroom/bed.html"}}">Beds</a></li>
+						<li><a href="{{store url="bedroom/headboards.html"}}">HeadBoards</a></li>
+						<li><a href="{{store url="bedroom/chests-dressers.html"}}">Chests &amp; Dressers</a></li>
+						<li><a href="#">Bedroom Sets</a></li>
+						<li><a href="#">Mattretsser</a></li>
+						<li><a href="#">Armories</a></li>
+						<li><a href="#">Small Beds</a></li>
+						<li><a href="#">Larger Beds</a></li>
+						</ul>
+						</div>
+						<div class="bg"><img src="{{media url="wysiwyg/1_13.png"}}" alt="" /></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Title Links3</title>
+            <identifier>title_links3</identifier>
+            <content>
+				<![CDATA[
+					<div class="title-links">
+					<div class="title2">
+					<h3>LIGHTING FURNITURE</h3>
+					</div>
+					<div class="tab-links">
+					<ul>
+					<li><a href="{{store url="bedroom/nightstands.html"}}">Nightstands</a></li>
+					<li><a href="{{store url="bedroom/bed.html"}}">Beds</a></li>
+					<li><a href="{{store url="bedroom/headboards.html"}}">HeadBoards</a></li>
+					<li><a href="{{store url="bedroom/chests-dressers.html"}}">Chests &amp; Dressers</a></li>
+					<li><a href="#">Bedroom Sets</a></li>
+					<li><a href="#">Mattretsser</a></li>
+					<li><a href="#">Armories</a></li>
+					<li><a href="#">Small Beds</a></li>
+					<li><a href="#">Larger Beds</a></li>
+					</ul>
+					</div>
+					<div class="bg"><img src="{{media url="wysiwyg/1_14.png"}}" alt="" /></div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+				<![CDATA[
+					<div class="banner-left"><a href="#"><img src="{{media url="wysiwyg/banner_left.jpg"}}" alt="" /></a></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>PT Menu Category</title>
+            <identifier>pt_menu_idcat_3</identifier>
+            <content>
+                    <![CDATA[
+						<p><a href="{{store url="bedroom.html"}}"><img src="{{media url="wysiwyg/pt_menu_id.jpg"}}" alt="" /></a></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Title Links4</title>
+            <identifier>title_links4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="title-links">
+						<div class="title2">
+						<h3>diningroom</h3>
+						</div>
+						<div class="tab-links">
+						<ul>
+						<li><a href="{{store url="diningroom/nightstands.html"}}">Nightstands</a></li>
+						<li><a href="{{store url="diningroom/bed.html"}}">Beds</a></li>
+						<li><a href="{{store url="diningroom/headboards.html"}}">HeadBoards</a></li>
+						<li><a href="{{store url="diningroom/chests-dressers.html"}}">Chests &amp; Dressers</a></li>
+						<li><a href="#">Bedroom Sets</a></li>
+						<li><a href="#">Mattretsser</a></li>
+						<li><a href="#">Armories</a></li>
+						<li><a href="#">Small Beds</a></li>
+						<li><a href="#">Larger Beds</a></li>
+						</ul>
+						</div>
+						<div class="bg"><img src="{{media url="wysiwyg/1_15.png"}}" alt="" /></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Our Service 2</title>
+            <identifier>our_service2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="our-service space-modul">
+						<div class="row">
+						<div class="box col-md-3">
+						<div class="box-inner"><i class="icon ion-earth">icon</i>
+						<div class="content">
+						<h5>FREE shipping</h5>
+						<p>Free shipping on all order</p>
+						</div>
+						</div>
+						</div>
+						<div class="box col-md-3">
+						<div class="box-inner"><i class="icon ion-android-checkmark-circle">icon</i>
+						<div class="content">
+						<h5>Money return</h5>
+						<p>Back guarantee under 7 days</p>
+						</div>
+						</div>
+						</div>
+						<div class="box col-md-3">
+						<div class="box-inner"><i class="icon ion-ios-bell">icon</i>
+						<div class="content">
+						<h5>member discount</h5>
+						<p>Onevery order over $120.00</p>
+						</div>
+						</div>
+						</div>
+						<div class="box col-md-3">
+						<div class="box-inner"><i class="icon ion-android-time">icon</i>
+						<div class="content">
+						<h5>Online SUPPORT</h5>
+						<p>Support online 24 hours a day</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Home Static 2</title>
+            <identifier>home_static2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="home-static space-modul">
+						<div class="row">
+						<div class="col-md-4 box box1">
+						<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/3_4.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-4 box box2">
+						<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/3_5.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col-md-4 box box3">
+						<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/3_6.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Home Static 3</title>
+            <identifier>home_static3</identifier>
+            <content>
+				<![CDATA[
+					<div class="home-static2 space-modul">
+					<div class="row">
+					<div class="col-md-3 box box1">
+					<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/3_8.jpg"}}" alt="" /></a>
+					<div class="text">
+					<p>New Arrivals</p>
+					<h5>Dining Table 2018</h5>
+					<p>Sale Up To 20% Off</p>
+					</div>
+					</div>
+					</div>
+					<div class="col-md-6 box box2">
+					<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/3_9.jpg"}}" alt="" /></a>
+					<div class="text">
+					<p>Furniture Designs Ideas</p>
+					<h5>Wood Chair – Table Style New</h5>
+					<p>From $120.99 – Sale 60%</p>
+					</div>
+					</div>
+					</div>
+					<div class="col-md-3 box box3">
+					<div class="box-inner"><a href="#"><img src="{{media url="wysiwyg/3_10.jpg"}}" alt="" /></a>
+					<div class="text">
+					<p>Normann Copenhagen</p>
+					<h5>Copenhagen Chair</h5>
+					<p>Sale Up To 40% Off</p>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links 3</title>
+            <identifier>pt_menu_links_3</identifier>
+            <content>
+                    <![CDATA[
+						<ul class="menu_links">
+						<li><a href="{{store url="contact"}}">contact</a></li>
+						<li><a href="{{store url="blog"}}">blog</a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+    </blocks>
+</ma_furnilife>

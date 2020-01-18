@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>  
+<bannerslider>
+<records>
+	<record> 
+		<name>Exclusive Offer -20% Off This Week </name>
+		<title1>Conbox Fan <br/>Collection 2018</title1>
+		<title2>Starting <strong>$140.99</strong></title2>
+		<click_url>#</click_url> 
+		<image><![CDATA[Plazathemes/bannerslider/images/1/_/1_1_1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>0</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>Exclusive Offer -30% Off This Week </name>
+		<title1>Decorative <br/>Outdoor Chair 2018</title1>
+		<title2>Starting <strong>$260.99</strong></title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/1/_/1_2_1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	
+</records>
+</bannerslider>
